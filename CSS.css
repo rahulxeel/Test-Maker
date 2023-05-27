@@ -1,0 +1,481 @@
+
+/****************************************************************************************************************************************
+##############################   P A R T - 1    #########################################################################################
+*****************************************************************************************************************************************/ 
+
+
+
+
+
+
+/*****************************************************************************
+#######################      F O R      P C      ############################
+******************************************************************************/ 
+
+
+
+body{
+
+background-color: #E69A8DFF;
+}
+ 
+ 
+ 
+#PART1{
+display: block;
+position : relative;
+margin-top: 5%;
+margin-left: 20%;
+background-color: #5F4B8BFF;
+height: 500px;
+width: 800px;
+
+}
+
+
+#tt{
+font-size: 60px;
+color: white;
+position: relative;
+top:30px;
+margin-left: 30%;
+
+}
+
+
+
+
+#rule{
+
+margin-left: 20px;
+font-size: 25px;
+}
+
+
+
+#start{
+display: block;
+margin-top: 80px;
+margin-left: 280px;
+background-color: #00203FFF;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+height: 50px;
+width: 150px;}
+
+
+/*****************************************************************************
+#######################      F O R      Mobile    ############################
+******************************************************************************/ 
+@media only screen and (max-width: 900px) {
+
+
+
+
+
+
+#PART1{
+display:block;
+border-radius: 25px;
+position : relative;
+margin-top: 5%;
+margin-left:1%;
+background-color:#5F4B8BFF; ;
+height: 730px;
+width: 370px;
+
+}
+
+
+#tt{
+font-size: 40px;
+color: white;
+position: relative;
+top:30px;
+margin-left: 23%;
+
+}
+
+
+
+
+#rule{
+position: relative;
+margin-top: 106px;
+margin-left: 20px;
+font-size: 25px;
+}
+
+
+
+#start{
+
+margin-top: 80px;
+margin-left: 100px;
+background-color: #00203FFF;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+height: 50px;
+width: 150px;}
+
+
+
+
+}
+
+
+/****************************************************************************************************************************************
+##############################   P A R T - 2    #########################################################################################
+*****************************************************************************************************************************************/ 
+
+
+
+
+
+/*****************************************************************************
+#######################      F O R      P C      ############################
+******************************************************************************/ 
+
+
+#PART2{
+
+display: none;
+position : relative;
+top: 20px;
+margin-left: 4%;
+background-color: #5F4B8BFF;
+height: 1830px;
+width: 1250px;
+
+}
+
+
+#bo{
+position : fixed;
+background-color: #42EADDFF;
+height: 80px;
+top: 0px;
+width: 1250px;
+}
+
+
+
+
+
+
+#boa{
+
+margin-top: 1.5%;
+margin-left: 35%;
+font-size: 30px;
+color: white;
+font-size: 50px;
+
+}
+
+#a1{
+
+margin-top: -105px;
+color: red;
+margin-left: 54%;
+font-size: 50px;
+}
+
+
+
+
+
+
+
+#que{
+margin-left: 1%;
+font-size: 20px;
+color:white;
+
+
+}
+
+
+#SUBMIT{
+background-color: GREEN;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+position:relative;
+margin-top: 6%;
+left: 60%;}
+
+
+
+#CANCEL{
+background-color: RED;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+position:relative;
+margin-top: 6%;
+left: 20%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.radiobt{
+
+border-radius: 100px;
+font-size: 0px;
+padding: 15px 15px;
+background-color:#E69A8DFF;
+}
+
+
+/*****************************************************************************
+#######################      F O R      Mobile    ############################
+******************************************************************************/ 
+@media only screen and (max-width: 900px) {
+
+
+
+#PART2{
+position: relative;
+display: none;
+top: 50px;
+margin-left: 1%;
+background-color: #5F4B8BFF;
+height: 2000px;
+width: 370px;
+
+}
+
+
+
+
+
+#bo{
+position: fixed;
+top: 0px;
+background-color: #42EADDFF;
+height: 80px;
+width: 370px;
+}
+
+
+#boa{
+
+margin-top: 5%;
+margin-left: 13%;
+font-size: 30px;
+color: white;
+font-size: 30px;
+
+}
+
+#a1{
+
+margin-top: -66px;
+color: red;
+margin-left: 60%;
+font-size: 30px;
+}
+
+
+#que{
+
+margin-left: 1%;
+font-size: 20px;
+color: white;
+
+
+}
+
+
+#SUBMIT{
+background-color: GREEN;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+margin-top: 9%;
+left: 60%;}
+
+
+
+#CANCEL{
+background-color: RED;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+margin-top: 9%;
+left: -30%;}
+
+
+}
+
+
+
+
+/****************************************************************************************************************************************
+##############################   P A R T - 3    #########################################################################################
+*****************************************************************************************************************************************/ 
+/****************************************************************************************************************************************
+##############################     S U B M I T   #########################################################################################
+*****************************************************************************************************************************************/ 
+
+
+
+/*****************************************************************************
+#######################      F O R      P C      ############################
+******************************************************************************/ 
+
+
+#PART3{
+display: none;
+position : relative;
+margin-top: 5%;
+margin-left: 20%;
+background-color: #5F4B8BFF;
+height: 500px;
+width: 800px;
+
+}
+
+
+
+#ys{
+font-size: 60px;
+color: white;
+position: relative;
+top:30px;
+margin-left: 30%;
+
+}
+
+
+
+
+
+
+
+#s{
+font-size: 90px;
+color: red;
+position: relative;
+top:  -50px;
+margin-left: 73%;
+
+}
+
+
+
+#ReTest{
+
+display: block;
+margin-top: 140px;
+margin-left: 300px;
+background-color: #00203FFF;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+height: 50px;
+width: 150px;
+
+
+}
+
+
+.questions{
+
+margin-top: -40px;
+margin-left: 300px;
+font-size: 30px;
+}
+
+
+.worng{
+
+margin-top: -30px;
+margin-left: 300px;
+
+}
+
+
+.right{
+
+margin-top: -30px;
+margin-left: 300px;
+
+}
+
+/*****************************************************************************
+#######################      F O R      Mobile    ############################
+******************************************************************************/ 
+@media only screen and (max-width: 900px) {
+
+
+
+#PART3{
+display:none;
+border-radius: 25px;
+position : relative;
+margin-top: 35%;
+margin-left:1%;
+background-color:#5F4B8BFF; ;
+height: 480px;
+width: 370px;
+
+}
+
+
+#ys{
+font-size: 50px;
+color: white;
+position: relative;
+top:30px;
+margin-left: 17%;
+
+}
+
+
+
+
+#s{
+font-size: 60px;
+color: green;
+position: relative;
+top:80px;
+margin-left: 43%;
+
+}
+
+
+
+#ReTest{
+
+margin-top: 180px;
+margin-left: 100px;
+background-color: #00203FFF;
+border: 4px outset white;
+font-size: 30px;
+color: white;
+height: 50px;
+width: 150px;
+
+
+}
+
+
+
+
+
+}
+
+
