@@ -1,0 +1,199 @@
+<html>
+
+<body> 
+
+<head>   
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="CSS.css">  
+          <script src="JS.js"></script>
+
+ </head>
+
+
+
+<!*****************************************************************************************************************************************
+##################################################     P A R T   -  1   ####################################################################
+********************************************************************************************************************************************>
+
+<div id="PART1">
+
+
+
+                     <p id="tt"> Take A Test </p>
+
+                     
+  
+                   <div id="rule">
+                      
+                             <h><b>Rules:-</b>
+                                <br><b>(1)</b> Don't Open New Tab.
+                                <br><b>(2)</b> Time Duration 30s.
+                                <br><b>(2)</b> Don't Copy Paste anything.
+                                <br><b>(3)</b> Ten questions will be there from javascript.
+                                <br><b>(4)</b> After the time duration you will unable to answer. 
+                                <br><b>(4)</b> If you Change the Tab more then two times your exam will be canceled.
+                                <br><b>(5)</b> Your Score will show after the exam.
+                              
+                             </h>
+                   </div>
+   
+   
+   
+
+                   <button id="start" onclick="start()" >START</button>
+
+
+
+
+</div>
+
+
+
+<!*****************************************************************************************************************************************
+##################################################     P A R T   -  2   ####################################################################
+********************************************************************************************************************************************>
+
+<div id="PART2">
+
+           <div id="bo">
+           
+                <p id="boa">Time Left : </p> 
+                <p id="a1">30</p> 
+           </div>
+           
+
+
+<div id="que">
+<br><br><br>
+ 1. The baby frog is known as?<br><br>
+
+
+<button class="radiobt" id="OP1a"  onclick="OP1a()"  >.</button>Tadpole  <br>  <button class="radiobt" id="OP1b" onclick="OP1b()">.</button>Baby  <br> <button class="radiobt" id="OP1c" onclick="OP1c()">.</button> Child <br><br><br>
+
+2. Rainbow consist of how many colours?<br><br>
+
+
+ <button class="radiobt" id="OP2a" onclick="OP2a()">.</button>7 colours <br> <button class="radiobt" id="OP2b" onclick="OP2b()"></button>Baby  <br>  <button class="radiobt" id="OP2c" onclick="OP2c()"></button> Child <br><br><br>
+
+
+3. How many days are there in a year?<br><br>
+
+
+ <button class="radiobt" id="OP3a" onclick="OP3a()">.</button>365 days (not a leap year) <br>    <button class="radiobt" id="OP3b" onclick="OP3b()"></button>Baby <br>  <button class="radiobt" id="OP3c" onclick="OP3c()"></button> Child <br><br><br>
+
+
+4. How many minutes are there in an hour?<br><br>
+
+
+<button class="radiobt" id="OP4a" onclick="OP4a()"></button> 60 minutes <br> <button class="radiobt" id="OP4b" onclick="OP4b()"></button>Baby <br> <button class="radiobt" id="OP4c" onclick="OP4c()"></button> Child <br><br><br>
+
+
+5. How many seconds are there in a minute?<br><br>
+
+
+<button class="radiobt" id="OP5a" onclick="OP5a()"></button>60 seconds <br>  <button class="radiobt" id="OP5b" onclick="OP5b()"></button>Baby <br>  <button class="radiobt" id="OP5c" onclick="OP5c()"></button> Child <br><br><br>
+
+
+6. How many seconds make one hour?<br><br>
+
+
+<button class="radiobt" id="OP6a" onclick="OP6a()"></button>3600 seconds <br>  <button class="radiobt" id="OP6b" onclick="OP6b()"></button>Baby  <br>  <button class="radiobt" id="OP6c" onclick="OP6c()"></button> Child <br><br><br>
+
+
+7. How many consonants are there in the English alphabet?<br><br>
+
+
+<button class="radiobt" id="OP7a" onclick="OP7a()"></button>21 Consonants <br><button class="radiobt" id="OP7b" onclick="OP7b()"></button>Baby <br>  <button class="radiobt" id="OP7c" onclick="OP7c()"></button> Child <br><br><br>
+
+8. Which animal is known as the 'Ship of the Desert"?<br><br>
+
+<button class="radiobt" id="OP8a" onclick="OP8a()"></button>Camel <br> <button class="radiobt" id="OP8b" onclick="OP8b()"></button>Baby  <br>  <button class="radiobt" id="OP8c" onclick="OP8c()"></button> Child <br><br><br>
+
+
+9. How many days are there in a week?<br><br><br>
+
+
+
+ <button class="radiobt" id="OP9a" onclick="OP9a()"></button>7 days <br>  <button class="radiobt" id="OP9b" onclick="OP9b()"></button>Baby <br>  <button class="radiobt" id="OP9c" onclick="OP9c()"></button> Child <br><br><br>
+
+
+10. How many hours are there in a day?<br><br>
+
+ <button class="radiobt" id="OP10a" onclick="OP10a()"></button>24 hours <br>  <button class="radiobt" id="OP10b" onclick="OP10b()"></button>Baby <br>  <button class="radiobt" id="OP10c" onclick="OP10c()"></button> Child <br><br><br>
+
+</div>
+
+
+
+
+
+
+
+               <button id="SUBMIT" onclick="SUBMIT()" >SUBMIT</button>
+               
+               <button id="CANCEL" onclick="CANCEL()" >CANCEL</button>
+               
+               
+
+</div>
+
+
+
+
+<!*****************************************************************************************************************************************
+##################################################     P A R T   -  3   ####################################################################
+********************************************************************************************************************************************>
+<!*****************************************************************************************************************************************
+##################################################      R E S U L T      ###################################################################
+********************************************************************************************************************************************>
+
+<div id="PART3">
+
+
+                  
+
+                                 <div id="ys"> Your Score :-</div>
+                                 <div id="s">0</div>
+ <div class="questions">
+    
+    
+    
+ <div id="ans1">1 </div> <i id="g1" class="worng" class="fa fa-close" style="color: #ed0c0c; display: none;"></i>  <i id="b1" class="right"  class="fa fa-check" style=" display: none; color: #1fee11;"></i>
+ 
+ 
+ 
+ 
+</div>
+                                 
+                         <button id="ReTest" onclick="CANCEL()" >Re-Test</button>
+                               
+                               
+                               
+                               
+                               
+</div>
+
+
+
+
+<!*****************************************************************************************************************************************
+##################################################     P A R T   -  3   ####################################################################
+********************************************************************************************************************************************>
+<!*****************************************************************************************************************************************
+##################################################      Calculation      ###################################################################
+********************************************************************************************************************************************>
+
+
+
+
+     
+</body>
+
+
+
+
+
+
+</html>
